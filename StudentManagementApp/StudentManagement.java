@@ -1,6 +1,6 @@
 package StudentManagementApp;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class StudentManagement {
@@ -13,6 +13,10 @@ public class StudentManagement {
     public void addStudent(Student details) {
         studentList.add(details);
     }
+
+
+
+
 
 
     public static void main(String[] args) {
@@ -64,4 +68,5 @@ public class StudentManagement {
         }
 
     }
+
 }
